@@ -19,8 +19,7 @@ python setup.py install
 
 5. Setup project's structure:  
 - Set content root to `whereami` folder (the outer folder the wraps this whole repo).  
-- Mark directories in `.gitignore` as **Excluded**.  
-- Mark these folders: `tests`, `whereami` (smaller level `.\whereami\whereami`) as **Sources Root**.    
+- Mark directories in `.gitignore` as **Excluded**.   
 
 
 6. Install `access_points` package (terminal in the wrapper folder `whereami`):  
