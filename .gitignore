@@ -20,3 +20,4 @@ __pycache__/
 .coverage.*
 .coveralls.yml
 access_points
+.whereami
