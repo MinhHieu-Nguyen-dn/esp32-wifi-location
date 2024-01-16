@@ -51,7 +51,7 @@ def get_args_parser():
     learn_parser.add_argument('--location', '-l', required=True,
                               help='A name-tag for location to learn.')
     learn_parser.add_argument('--device', '-d', default="",
-                              help='Change the wifi device to use')
+                              help='Change the wifi device to use - Not necessary for Windows user')
     learn_parser.add_argument('--num_samples', '-n', type=int,
                               default=1, help='Number of samples to take')
 

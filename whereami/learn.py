@@ -2,6 +2,7 @@ import time
 import json
 
 # from tqdm import tqdm
+from progiter import ProgIter
 
 from whereami.get_data import sample
 
@@ -19,8 +20,8 @@ def write_data(label_path, data):
 def learn(label, n=1, device=""):
     path = ensure_whereami_path()
     label_path = get_label_file(path, label + ".txt")
-    # for i in tqdm(range(n)):
-    for i in range(n):
+    for i in ProgIter(range(n)):
+    # for i in range(n):
         if i != 0:
             time.sleep(15)
         try:
