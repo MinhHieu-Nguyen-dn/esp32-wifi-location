@@ -3,3 +3,5 @@ scipy
 numpy
 scikit-learn
 access_points
+setuptools
+progiter~=0.1.4
