@@ -19,7 +19,6 @@ while True:
     client, addr = s.accept()
 
     while True:
-        # content = client.recv(32).decode("utf-8")
         data = b''
         while True:
             packet = client.recv(32)

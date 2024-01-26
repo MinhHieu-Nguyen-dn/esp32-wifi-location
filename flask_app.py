@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     s = socket.socket()
-    s.bind(('0.0.0.0', 9999))
+    s.bind(('0.0.0.0', 8090))
     s.listen(0)
 
     while True:
