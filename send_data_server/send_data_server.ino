@@ -1,11 +1,11 @@
 #include "WiFi.h"
 #include <HTTPClient.h>
 
-const char* ssid = "VNUK4-2";
-const char* password = "Z@q12wsx";
+const char* ssid = "your_WiFi_ssid";
+const char* password = "your_WiFi_password";
 
 const uint16_t port = 8090;
-const char * host = "172.16.24.193";
+const char * host = "your_IPv4_Address";
  
 void setup()
 {

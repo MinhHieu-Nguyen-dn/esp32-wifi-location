@@ -21,3 +21,4 @@ __pycache__/
 .coveralls.yml
 access_points
 .whereami
+tests
